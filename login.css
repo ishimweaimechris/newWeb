@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(paint.jpg);
+  background-size: cover;
+  background-color: rgb(8, 122, 86);
+}
+input{
+  margin-top: 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: seashell;
+  padding-left: .5cm;
+  margin-left: 25%;
+  width: 50%;
+  height: 1cm;
+  margin-bottom: 1rem;
+}
+.box{
+  border: none;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #6c6464;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+#lnk{
+  text-align: center;
+}
+#lnk a{
+  text-decoration: none;
+  color: rgb(42, 42, 139);
+}
+#submit-btn{
+  margin-left: 28%;
+  border: none;
+  border-radius: 5px;
+  height: .7cm;
+  width: 2cm;
+}
+#submit-btn:hover{
+  color: white;
+  background-color: rgb(60, 51, 40);
+  border: none;
+  border-radius: 5px;
+  height: .7cm;
+  width: 2cm;
+  transition-duration: 700ms;
+}
+#cancel-btn{
+  margin-left: 10%;
+  border: none;
+  border-radius: 5px;
+  height: .7cm;
+  width: 2cm;
+}
+#cancel-btn:hover{
+  background-color: burlywood;
+  border: none;
+  border-radius: 5px;
+  height: .7cm;
+  width: 2cm;
+  transition-duration: 700ms;
+}

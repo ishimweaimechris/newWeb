@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+nav a img{
+    width: 1.5cm;
+}
+nav:hover a img{
+    width: 1.8cm;
+    transition-duration: 1000ms;
+}
+nav{
+    padding-left: 1%;
+    padding-top: 1rem;
+    height: 1cm;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: .3cm;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(105, 8, 8);
+    transition-duration: 700ms;
+}
+
+.box{
+    color: white;
+    background-color: rgb(29, 29, 104);
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding: 2rem;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(134, 134, 241);
+}
+#joga{
+    font-size: small;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+input{
+    border: none;
+    border-radius: 2px;
+    height: .6cm;
+    margin-bottom: 1rem;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: center;
+    animation-name: slideshow;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url('paint.jpg');
+    }
+    25% {
+        background-image: url('paints.jpg');
+    }
+    50% {
+        background-image: url('test.jpg');
+    }
+    75% {
+        background-image: url('hero.jpg');
+    }
+    100% {
+        background-image: url('d.jpeg');
+    }
+}
